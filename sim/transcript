@@ -1,0 +1,94 @@
+# vsim -c async_fifo_tb -do "run -all; exit" 
+# Start time: 11:26:15 on Aug 14,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: ../tb/async_fifo_tb.sv(43): (vopt-3838) Variable 'cdc_error_count' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See ../tb/async_fifo_tb.sv(70). 
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.async_fifo_tb(fast)
+# run -all
+# =========================================================
+#      STARTING ASYNCHRONOUS FIFO (CDC) TESTBENCH          
+# =========================================================
+# 
+# --- PHASE 1: Fast Write (100MHz), Slow Read (40MHz) ---
+# [PASS CDC READ @ 489000 ps] Data Match: 0xb0000000
+# [PASS CDC READ @ 539000 ps] Data Match: 0xb0000001
+# [PASS CDC READ @ 589000 ps] Data Match: 0xb0000002
+# [PASS CDC READ @ 639000 ps] Data Match: 0xb0000003
+# [PASS CDC READ @ 689000 ps] Data Match: 0xb0000004
+# [PASS CDC READ @ 739000 ps] Data Match: 0xb0000005
+# [PASS CDC READ @ 789000 ps] Data Match: 0xb0000006
+# [PASS CDC READ @ 839000 ps] Data Match: 0xb0000007
+# [PASS CDC READ @ 889000 ps] Data Match: 0xb0000008
+# [PASS CDC READ @ 939000 ps] Data Match: 0xb0000009
+# [PASS CDC READ @ 989000 ps] Data Match: 0xb000000a
+# [PASS CDC READ @ 1039000 ps] Data Match: 0xb000000b
+# [PASS CDC READ @ 1089000 ps] Data Match: 0xb000000c
+# [PASS CDC READ @ 1139000 ps] Data Match: 0xb000000d
+# [PASS CDC READ @ 1189000 ps] Data Match: 0xb000000e
+# [PASS CDC READ @ 1239000 ps] Data Match: 0xb000000f
+# 
+# --- PHASE 2: Dynamic Frequency Mismatch (W: 33MHz, R: 100MHz) ---
+# [PASS CDC READ @ 1554000 ps] Data Match: 0x20009e01
+# [PASS CDC READ @ 1614000 ps] Data Match: 0xeae90d3c
+# [PASS CDC READ @ 1684000 ps] Data Match: 0xe5c3341e
+# [PASS CDC READ @ 1744000 ps] Data Match: 0xe75f26b1
+# [PASS CDC READ @ 1834000 ps] Data Match: 0x194355f7
+# [PASS CDC READ @ 1894000 ps] Data Match: 0xb69dbd9e
+# [PASS CDC READ @ 2004000 ps] Data Match: 0x2b69d83f
+# [PASS CDC READ @ 2104000 ps] Data Match: 0x51909bbe
+# [PASS CDC READ @ 2204000 ps] Data Match: 0x96e66600
+# [PASS CDC READ @ 2274000 ps] Data Match: 0x9fb2a9
+# [PASS CDC READ @ 2314000 ps] Data Match: 0x13b8a1ea
+# [PASS CDC READ @ 2424000 ps] Data Match: 0x8e2c05bb
+# [PASS CDC READ @ 2474000 ps] Data Match: 0x6823a7a0
+# [PASS CDC READ @ 2554000 ps] Data Match: 0xee529e94
+# [PASS CDC READ @ 2664000 ps] Data Match: 0x5dea780d
+# [PASS CDC READ @ 2724000 ps] Data Match: 0x2d491066
+# [PASS CDC READ @ 2764000 ps] Data Match: 0xa6e29dbf
+# [PASS CDC READ @ 2854000 ps] Data Match: 0xb20b0b21
+# [PASS CDC READ @ 5614000 ps] Data Match: 0x962b5b07
+# [PASS CDC READ @ 5634000 ps] Data Match: 0x458097cc
+# [PASS CDC READ @ 5654000 ps] Data Match: 0x7ef0ccea
+# [PASS CDC READ @ 5674000 ps] Data Match: 0xe881b3cd
+# [PASS CDC READ @ 5694000 ps] Data Match: 0xfafb08d2
+# [PASS CDC READ @ 5714000 ps] Data Match: 0x75ba1337
+# [PASS CDC READ @ 5734000 ps] Data Match: 0xb53d4c4c
+# [PASS CDC READ @ 5754000 ps] Data Match: 0xe38d804d
+# [PASS CDC READ @ 5774000 ps] Data Match: 0x2173624b
+# [PASS CDC READ @ 5794000 ps] Data Match: 0xf4b55a61
+# [PASS CDC READ @ 5814000 ps] Data Match: 0xd63f49d3
+# [PASS CDC READ @ 5834000 ps] Data Match: 0x20c7b228
+# [PASS CDC READ @ 5854000 ps] Data Match: 0x83ca789f
+# [PASS CDC READ @ 5874000 ps] Data Match: 0x88844162
+# [PASS CDC READ @ 5894000 ps] Data Match: 0xdd4e0ff0
+# [PASS CDC READ @ 5914000 ps] Data Match: 0x5e50449
+# 
+# =========================================================
+#                CDC TEST SUMMARY REPORT                   
+# =========================================================
+#  Total Items Written : 50
+#  Total Items Read    : 50
+#  CDC Hamming Errors  : 0
+#  Data Mismatches     : 0
+# =========================================================
+#     *** ASYNCHRONOUS FIFO CDC TESTBENCH PASSED ***
+# =========================================================
+# ** Note: $finish    : ../tb/async_fifo_tb.sv(192)
+#    Time: 6122500 ps  Iteration: 0  Instance: /async_fifo_tb
+# End time: 11:26:16 on Aug 14,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1

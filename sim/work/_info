@@ -1,0 +1,268 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/abhij/OneDrive/Desktop/SOUTH/Synchronous & Asynchronous FIFO/sim
+T_opt
+!s110 1786686882
+VKl7dd^?kUe:0nz76EENAU1
+04 12 4 work sync_fifo_tb fast 0
+=1-c8418a107973-6a7eada1-3dc-3ad8
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1786686976
+V13jYI5bHI?>J3nl6nA=Q13
+04 13 4 work async_fifo_tb fast 0
+=1-c8418a107973-6a7eae00-61-3fdc
+R1
+R2
+n@_opt1
+R3
+vasync_fifo
+Z4 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z5 !s110 1786686975
+!i10b 1
+!s100 9J6Oo;<aGE]f@kAeZY^H52
+I>TE[4gLDH2:k3TScb@WVT3
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+!s105 async_fifo_sv_unit
+S1
+R0
+w1786686846
+8../rtl/async_fifo.sv
+F../rtl/async_fifo.sv
+Z7 L0 10
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1786686974.000000
+Z10 !s107 ../tb/async_fifo_tb.sv|../tb/cdc_monitor.sv|../tb/fifo_sequences.sv|../rtl/async_fifo.sv|../rtl/fifo_flags.sv|../rtl/fifo_sync.sv|../rtl/gray_code.sv|
+Z11 !s90 -sv|../rtl/gray_code.sv|../rtl/fifo_sync.sv|../rtl/fifo_flags.sv|../rtl/async_fifo.sv|../tb/fifo_sequences.sv|../tb/cdc_monitor.sv|../tb/async_fifo_tb.sv|
+!i113 0
+Z12 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vasync_fifo_tb
+R4
+R5
+!i10b 1
+!s100 okgO7WSjf?ieP[T5NhGDc0
+IB^5O_Dk=D?PB8[PThXBab1
+R6
+!s105 async_fifo_tb_sv_unit
+S1
+R0
+w1786686949
+8../tb/async_fifo_tb.sv
+F../tb/async_fifo_tb.sv
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vbin2gray
+R4
+Z13 !s110 1786686974
+!i10b 1
+!s100 @]MMPi8JHe<6Yl^n;JBg>2
+ITRKcHDUjW;G2Zm0WfcbdD0
+R6
+Z14 !s105 gray_code_sv_unit
+S1
+R0
+Z15 w1786686667
+Z16 8../rtl/gray_code.sv
+Z17 F../rtl/gray_code.sv
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vcdc_monitor
+R4
+R5
+!i10b 1
+!s100 ISfM1Ak:aHDM30=Jalzdm3
+IbE7MlYi?6CgV_z72Md6dF3
+R6
+!s105 cdc_monitor_sv_unit
+S1
+R0
+w1786686911
+8../tb/cdc_monitor.sv
+F../tb/cdc_monitor.sv
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vfifo_flags
+R4
+R13
+!i10b 1
+!s100 fI:n>Kmzh`HeB5?LUm8`z3
+I`EC=VIX5Dz<4<g:=E;Z@_1
+R6
+!s105 fifo_flags_sv_unit
+S1
+R0
+w1786686839
+8../rtl/fifo_flags.sv
+F../rtl/fifo_flags.sv
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+Xfifo_sequences_pkg
+R4
+R5
+!i10b 1
+!s100 Nzi1f7?e`HUD6@5XhSoY?2
+IQ2fBO`>A8_Kb@fZDge5E=1
+VQ2fBO`>A8_Kb@fZDge5E=1
+S1
+R0
+w1786686692
+8../tb/fifo_sequences.sv
+F../tb/fifo_sequences.sv
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vfifo_sync
+R4
+R13
+!i10b 1
+!s100 >lA<0Jc@?MRTWM@JE[CY23
+I[oEN@;bVUaAji0aaf<g=A2
+R6
+!s105 fifo_sync_sv_unit
+S1
+R0
+w1786686672
+8../rtl/fifo_sync.sv
+F../rtl/fifo_sync.sv
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vgray2bin
+R4
+R13
+!i10b 1
+!s100 6bb5d6?0<cn_9nDaTkbL<2
+I:H^jzXRBImMB0nNCGmlGM3
+R6
+R14
+S1
+R0
+R15
+R16
+R17
+L0 21
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vsync_fifo
+R4
+Z18 !s110 1786686880
+!i10b 1
+!s100 dFI1Pz1`ZZI?hGczmlgc`3
+I?eQL2HkITzTU^DHFgk0FZ0
+R6
+!s105 sync_fifo_sv_unit
+S1
+R0
+w1786686825
+8../rtl/sync_fifo.sv
+F../rtl/sync_fifo.sv
+R7
+R8
+r1
+!s85 0
+31
+Z19 !s108 1786686880.000000
+Z20 !s107 ../tb/sync_fifo_tb.sv|../rtl/sync_fifo.sv|
+Z21 !s90 -sv|../rtl/sync_fifo.sv|../tb/sync_fifo_tb.sv|
+!i113 0
+R12
+R2
+vsync_fifo_tb
+R4
+R18
+!i10b 1
+!s100 <0GC`REzlS<=C^g5U^n[>0
+IUiXMG69ZUC5GoWS33><@82
+R6
+!s105 sync_fifo_tb_sv_unit
+S1
+R0
+w1786686832
+8../tb/sync_fifo_tb.sv
+F../tb/sync_fifo_tb.sv
+R7
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R12
+R2
