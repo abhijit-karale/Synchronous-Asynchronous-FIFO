@@ -1,4 +1,4 @@
-// ============================================================================
+ // ============================================================================
 // File: fifo_sync.sv
 // Description: 2-Stage Flip-Flop Synchronizer for Clock Domain Crossing (CDC)
 // Author: Abhijit Karale
